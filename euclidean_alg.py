@@ -17,6 +17,7 @@ def main(args):
         x1, x0 = x0 - x1 * q, x1
         y1, y0 = y0 - y1 * q, y1
 
+        print(f" AO:{a0} A1:{a1}\n", f"X0:{x0} X1:{x1}\n", f"YO:{y0} Y1:{y1}\n", f"Q:{q}")
     # Return GCD(x,y), a, b where GCD(x, y) = a * x + b * y
     return (a0, x0, y0)
 
